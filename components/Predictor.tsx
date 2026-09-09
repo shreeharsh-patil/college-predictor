@@ -1,0 +1,57 @@
+"use client";
+
+import { useRef, useState, type FormEvent } from "react";
+import { m } from "framer-motion";
+import { ArrowRight, Building2, Check, GraduationCap, Info, MapPin, RotateCcw, SlidersHorizontal, Sparkles, Stethoscope } from "lucide-react";
+import { categories, states, formatFees, formatNumber, type Category } from "@/lib/colleges";
+import { filterMatches, getDemoRank, predict, validateValue, type Profile } from "@/lib/prediction";
+
+const chanceStyles = { High: "bg-emerald-50 text-emerald-800 border-emerald-200", Medium: "bg-amber-50 text-amber-800 border-amber-200", Low: "bg-red-50 text-red-800 border-red-200" };
+
+export function Predictor() {
+  const [mode, setMode] = useState<Profile["mode"]>("rank");
+  const [value, setValue] = useState("");
+  const [category, setCategory] = useState<Category>("General");
+  const [state, setState] = useState("");
+  const [submitted, setSubmitted] = useState<Profile | null>(null);
+  const [error, setError] = useState("");
+  const [type, setType] = useState("All");
+  const [maxFees, setMaxFees] = useState(2000000);
+  const resultsRef = useRef<HTMLElement>(null);
+  const matches = submitted ? filterMatches(predict(submitted), type, maxFees) : [];
+  const changed = submitted && (submitted.mode !== mode || submitted.value !== Number(value) || submitted.category !== category || submitted.state !== state);
+
+  function submit(event: FormEvent) {
+    event.preventDefault();
+    if (value.trim() === "" || !validateValue(mode, Number(value))) { setError(mode === "score" ? "Enter a whole-number score from 0 to 720." : "Enter a whole-number rank from 1 to 30,00,000."); return; }
+    if (!states.includes(state)) { setError("Select your domicile state."); return; }
+    setError(""); setSubmitted({ mode, value: Number(value), category, state });
+    requestAnimationFrame(() => { resultsRef.current?.focus({ preventScroll: true }); resultsRef.current?.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth", block: "start" }); });
+  }
+
+  return <div className="grid items-start gap-7 lg:grid-cols-[320px_1fr]">
+    <aside className="space-y-5 lg:sticky lg:top-24">
+      <form onSubmit={submit} className="glass rounded-2xl p-6">
+        <div className="mb-6 flex items-center gap-3"><span className="rounded-xl bg-indigo-50 p-2.5 text-indigo-600"><Stethoscope size={22} /></span><div><h2 className="text-base font-semibold">Your NEET profile</h2><p className="mt-1 text-xs text-slate-500">A few details. New possibilities.</p></div></div>
+        <fieldset><legend className="mb-2 text-xs font-semibold">Predict using</legend><div className="mb-5 grid grid-cols-2 rounded-xl bg-slate-100 p-1">{(["rank", "score"] as const).map((item) => <label key={item} className={`cursor-pointer rounded-lg px-2 py-2.5 text-center text-xs font-medium transition has-focus-visible:outline-2 has-focus-visible:outline-indigo-500 ${mode === item ? "bg-white text-indigo-700 shadow-sm" : "text-slate-500"}`}><input type="radio" name="input-mode" value={item} checked={mode === item} onChange={() => { setMode(item); setValue(""); setError(""); }} className="sr-only" />{item === "rank" ? "All India Rank" : "NEET Score"}</label>)}</div></fieldset>
+        <label htmlFor="neet-value" className="mb-2 block text-xs font-semibold">{mode === "rank" ? "All India Rank" : "Expected NEET score"}</label><input id="neet-value" type="number" inputMode="numeric" min={mode === "score" ? 0 : 1} max={mode === "score" ? 720 : 3000000} step={1} required value={value} onChange={(event) => setValue(event.target.value)} placeholder={mode === "rank" ? "e.g. 12000" : "e.g. 620"} className="field" aria-describedby="value-help" /><p id="value-help" className="mt-2 text-[11px] leading-5 text-slate-500">{mode === "rank" ? "Use your overall AIR, not your category rank." : "Out of 720. Score-to-rank conversion is illustrative."}</p>
+        <label htmlFor="category" className="mt-5 mb-2 block text-xs font-semibold">Category</label><select id="category" value={category} onChange={(event) => setCategory(event.target.value as Category)} className="field">{categories.map((item) => <option key={item}>{item}</option>)}</select>
+        <label htmlFor="domicile" className="mt-5 mb-2 block text-xs font-semibold">Domicile state / UT</label><select id="domicile" required value={state} onChange={(event) => setState(event.target.value)} className="field"><option value="" disabled>Select your home state</option>{states.map((item) => <option key={item}>{item}</option>)}</select>
+        {error && <p role="alert" className="mt-3 text-xs text-red-700">{error}</p>}
+        <m.button whileTap={{ scale: .98 }} type="submit" className="primary-button mt-6 w-full">Predict My Colleges<ArrowRight size={17} /></m.button>
+        <p className="mt-3 flex items-center justify-center gap-1.5 text-[10px] text-slate-500"><Check size={12} className="text-teal-600" />No account needed. No details uploaded.</p>
+      </form>
+      <div className="flex gap-2.5 rounded-xl border border-indigo-100 bg-indigo-50/60 p-4"><Info size={16} className="mt-0.5 shrink-0 text-indigo-500" /><p className="text-xs leading-6 text-slate-600">Your rank is one part of the picture. Actual admissions depend on eligibility, seat availability, quota, and counselling rounds.</p></div>
+    </aside>
+    <section ref={resultsRef} tabIndex={-1} aria-labelledby="results-heading" className="min-w-0 scroll-mt-24 focus:outline-none">
+      {!submitted ? <div className="glass flex min-h-[560px] flex-col items-center justify-center rounded-2xl p-7 text-center"><div className="relative mb-8 flex size-28 items-center justify-center rounded-full border border-indigo-100 bg-indigo-50"><GraduationCap size={54} strokeWidth={1.2} className="text-indigo-500" /><span className="absolute -right-1 bottom-1 rounded-xl border-4 border-white bg-teal-100 p-2 text-teal-700"><Sparkles size={18} /></span></div><span className="mb-3 text-xs font-medium text-teal-700">YOUR POSSIBILITIES START HERE</span><h2 id="results-heading" className="text-2xl font-semibold tracking-tight">A campus with your name on it.</h2><p className="mt-4 max-w-sm text-sm leading-7 text-slate-500">Fill in your NEET profile to explore six sample colleges, compare fees, and see your illustrative admission chances.</p><div className="mt-8 flex flex-wrap justify-center gap-2">{["MBBS", "BDS", "AYUSH"].map((course) => <span key={course} className="rounded-lg border border-slate-200 px-4 py-2 text-xs text-slate-500">{course}</span>)}</div></div> : <>
+        <div className="mb-5"><div className="flex flex-wrap items-center justify-between gap-2"><h2 id="results-heading" className="text-2xl font-semibold tracking-tight">Your college possibilities</h2><span className="rounded-full border border-indigo-100 bg-indigo-50 px-3 py-1 text-[10px] font-semibold text-indigo-700">SAMPLE RESULTS</span></div><p className="mt-2 text-xs leading-6 text-slate-500">{submitted.mode === "score" ? "Illustrative AIR" : "All India Rank"} <strong className="text-slate-700">{formatNumber(getDemoRank(submitted))}</strong> <span className="mx-1">·</span> {submitted.category} <span className="mx-1">·</span> {submitted.state}</p>{changed && <p role="status" className="mt-3 rounded-lg bg-amber-50 p-3 text-xs text-amber-800">Your profile has changed. Select Predict My Colleges to update these results.</p>}</div>
+        <div className="mb-5 rounded-2xl border border-slate-200 bg-white p-4"><div className="mb-4 flex items-center justify-between"><span className="flex items-center gap-2 text-xs font-semibold"><SlidersHorizontal size={15} />Refine your matches</span><button onClick={() => { setType("All"); setMaxFees(2000000); }} className="flex items-center gap-1 text-[11px] font-medium text-indigo-600"><RotateCcw size={12} />Reset filters</button></div><div className="grid gap-4 sm:grid-cols-2"><div><label htmlFor="college-type" className="mb-2 block text-[11px] text-slate-500">College type</label><select id="college-type" value={type} onChange={(event) => setType(event.target.value)} className="field !py-2.5"><option value="All">All colleges</option><option>Government</option><option>Private</option></select></div><div><label htmlFor="max-fees" className="mb-3 flex justify-between text-[11px] text-slate-500">Max annual tuition<span className="font-semibold text-slate-700">{formatFees(maxFees)}</span></label><input id="max-fees" type="range" min={0} max={2000000} step={5000} value={maxFees} onChange={(event) => setMaxFees(Number(event.target.value))} aria-valuetext={formatFees(maxFees)} className="mt-2 w-full accent-indigo-600" /></div></div></div>
+        <p role="status" aria-live="polite" className="mb-3 text-xs text-slate-500">Showing {matches.length} of 6 sample colleges</p>
+        <div className="space-y-4">{matches.map((college) => <article key={college.id} className="rounded-2xl border border-slate-200/80 bg-white p-5 shadow-[0_4px_20px_-12px_#33415520] sm:p-6"><div className="flex items-start gap-3"><div className={`hidden size-11 shrink-0 items-center justify-center rounded-xl sm:flex ${college.course === "BAMS" ? "bg-teal-50 text-teal-600" : "bg-indigo-50 text-indigo-500"}`}><Building2 size={22} strokeWidth={1.5} /></div><div className="min-w-0 flex-1"><div className="flex flex-wrap items-start justify-between gap-3"><h3 className="max-w-[320px] text-[15px] leading-6 font-semibold">{college.name}</h3><span className={`rounded-full border px-2.5 py-1 text-[10px] font-semibold ${chanceStyles[college.chance]}`}>{college.chance} Admission Chance</span></div><p className="mt-1.5 flex items-center gap-1 text-[11px] text-slate-500"><MapPin size={12} />{college.city}, {college.state}</p></div></div><div className="mt-5 grid grid-cols-2 gap-4 rounded-xl bg-slate-50 p-4 sm:grid-cols-4">{[["Course", college.course], ["College type", college.type], ["Annual tuition", formatFees(college.fees)], ["Sample closing rank", formatNumber(college.closingRank)]].map(([label, detail]) => <div key={label}><p className="text-[10px] text-slate-500">{label}</p><p className="mt-1.5 text-xs font-semibold">{detail}</p></div>)}</div></article>)}</div>
+        {matches.length === 0 && <div className="rounded-2xl border border-dashed border-slate-300 p-10 text-center"><SlidersHorizontal className="mx-auto mb-4 text-slate-400" /><h3 className="font-semibold">No matches with these filters</h3><p className="mt-2 text-sm text-slate-500">Try a higher fee limit or include all college types.</p><button onClick={() => { setType("All"); setMaxFees(2000000); }} className="mt-5 text-sm font-semibold text-indigo-600">Reset filters</button></div>}
+        <details className="mt-5 rounded-xl border border-slate-200 p-4 text-xs leading-6 text-slate-500"><summary className="cursor-pointer font-medium text-slate-700">How these demo chances are calculated</summary><p className="mt-2">All fees and closing ranks are sample values. A synthetic category multiplier and a 15% same-state adjustment modify each sample cutoff. High means your rank is at most 80% of that adjusted cutoff; Medium is up to 115%; otherwise Low. These adjustments do not model actual reservation or quota rules. Score inputs use a synthetic curve. Annual tuition excludes hostel and other charges. Verify official counselling information before deciding.</p></details>
+      </>}
+    </section>
+  </div>;
+}

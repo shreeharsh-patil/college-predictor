@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter), Arial, Helvetica, sans-serif;
+}
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; scroll-padding-top: 100px; }
+body { background: #f8fafc; color: #19233f; font-family: var(--font-sans); }
+button, a, input, select { -webkit-tap-highlight-color: transparent; }
+button:not(:disabled), select { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
+::selection { background: #d9e0ff; color: #242267; }
+:focus-visible { outline: 3px solid #6366f1; outline-offset: 4px; }
+input, select { min-width: 0; }
+.page-shell { width: min(1120px, calc(100% - 40px)); margin-inline: auto; }
+.glass { background: rgb(255 255 255 / .85); backdrop-filter: blur(16px); border: 1px solid rgb(255 255 255 / .9); box-shadow: 0 12px 40px -24px #444a8833; }
+.field { width: 100%; border: 1px solid #dce1ec; border-radius: 12px; background: white; padding: 13px 14px; font-size: 14px; color: #24304b; transition: border-color .2s; }
+.field:focus { border-color: #6366f1; outline: 3px solid #e0e7ff; outline-offset: 0; }
+.field::placeholder { color: #64748b; }
+.primary-button { display: inline-flex; align-items: center; justify-content: center; gap: 10px; border-radius: 12px; background: #4f46e5; color: white; padding: 13px 20px; font-size: 14px; font-weight: 600; transition: background .2s, transform .2s; }
+.primary-button:hover { background: #4338ca; }
+.primary-button:active { transform: scale(.98); }
+.primary-button:disabled { opacity: .6; }
+.hero-wash { background: radial-gradient(ellipse at 85% 34%, #e0f4f466, transparent 45%), radial-gradient(ellipse at 8% 15%, #e8e7ff77, transparent 40%); }
+dialog { margin: auto; max-height: calc(100dvh - 32px); overflow-y: auto; }
+dialog::backdrop { background: #121a3b66; backdrop-filter: blur(6px); }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+@media (prefers-reduced-transparency: reduce) { .glass { background: white; backdrop-filter: none; } }
