@@ -9,7 +9,7 @@ const inter = localFont({ src: "../node_modules/@fontsource-variable/inter/files
 
 export const metadata: Metadata = {
   title: "Exam Intel | Find your next chapter",
-  description: "Explore your medical college possibilities with Exam Intel. Compare illustrative MBBS, BDS and AYUSH matches.",
+  description: "Explore 2025 AYUSH Round 1 college opening and closing ranks with Exam Intel.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

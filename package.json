@@ -7,7 +7,7 @@
     "build": "next build",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "test": "tsx --test tests/prediction.test.ts"
+    "test": "tsx --test tests/cutoffs.test.ts"
   },
   "dependencies": {
     "next": "^16.0.0",
