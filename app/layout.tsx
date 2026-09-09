@@ -8,8 +8,8 @@ import { Footer } from "@/components/Footer";
 const inter = localFont({ src: "../node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2", variable: "--font-inter", display: "swap", weight: "100 900" });
 
 export const metadata: Metadata = {
-  title: "Exam Intel College Predictor | Find your next chapter",
-  description: "Explore your medical college possibilities with Exam Intel College Predictor. Compare illustrative MBBS, BDS and AYUSH matches.",
+  title: "Exam Intel | Find your next chapter",
+  description: "Explore your medical college possibilities with Exam Intel. Compare illustrative MBBS, BDS and AYUSH matches.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
