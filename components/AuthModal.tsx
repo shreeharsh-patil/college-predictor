@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import { AnimatePresence, m } from "framer-motion";
 import { ArrowLeft, ArrowRight, Check, Compass, Phone, ShieldCheck, X } from "lucide-react";
-import { GoogleAuthProvider, RecaptchaVerifier, signInWithPhoneNumber, signInWithPopup, type ConfirmationResult } from "firebase/auth";
+import { RecaptchaVerifier, signInWithPhoneNumber, type ConfirmationResult } from "firebase/auth";
 import { firebaseConfigured, getFirebaseAuth } from "@/lib/firebase";
 import { useAuth } from "./Providers";
 
@@ -60,11 +60,6 @@ export function AuthModal({ open, onClose }: { open: boolean; onClose: () => voi
       }
     } finally { if (current === generation.current) setBusy(false); }
   }
-  function google() {
-    if (!firebaseConfigured) { setError("Google sign-in needs Firebase configuration. Use Phone Number to try the demo OTP flow."); return; }
-    const current = generation.current;
-    void run(async () => { await signInWithPopup(getFirebaseAuth(), new GoogleAuthProvider()); if (current === generation.current) setStep("success"); });
-  }
   function sendOtp(event?: FormEvent) {
     event?.preventDefault();
     const normalized = phone.replace(/[\s()-]/g, "");
@@ -104,7 +99,7 @@ export function AuthModal({ open, onClose }: { open: boolean; onClose: () => voi
         <h2 id="auth-title" className="text-2xl font-semibold tracking-tight">{step === "choose" ? "Your next chapter starts here." : step === "phone" ? "Let’s get you signed in." : step === "otp" ? "Check your messages." : "You’re all set."}</h2>
         <p className="mt-3 text-sm leading-6 text-slate-500">{step === "choose" ? "Welcome to Exam Intel. A little closer to your dream college." : step === "phone" ? "Enter your phone number with its country code." : step === "otp" ? (firebaseConfigured ? `Enter the 6-digit code sent to ${phone}.` : "Demo mode: no SMS was sent. Enter 123456 to continue.") : firebaseConfigured ? "You’re signed in. Your next chapter is waiting." : "Demo sign-in complete. This session stays in memory and resets on refresh."}</p>
         {!firebaseConfigured && step !== "success" && <p className="mt-4 rounded-xl border border-amber-100 bg-amber-50 px-3 py-2 text-xs leading-5 text-amber-800">Demo authentication · Firebase is not configured.</p>}
-        {step === "choose" && <div className="mt-7 space-y-3"><button disabled={busy} onClick={google} className="flex w-full items-center justify-center gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3.5 text-sm font-medium hover:bg-slate-50"><span aria-hidden="true" className="bg-[conic-gradient(#4285f4_0deg_90deg,#34a853_90deg_180deg,#fbbc05_180deg_230deg,#ea4335_230deg_290deg,#4285f4_290deg)] bg-clip-text text-xl leading-none font-bold text-transparent">G</span>{busy ? "Opening Google…" : "Continue with Google"}</button><button onClick={() => { setStep("phone"); setError(""); }} disabled={busy} className="primary-button w-full"><Phone size={17} />Continue with Phone Number</button></div>}
+        {step === "choose" && <div className="mt-7"><button onClick={() => { setStep("phone"); setError(""); }} disabled={busy} className="primary-button w-full"><Phone size={17} />Continue with Phone Number</button></div>}
         {step === "phone" && <form onSubmit={sendOtp} className="mt-6 space-y-4"><label className="block text-xs font-semibold" htmlFor="phone-number">Phone number</label><input autoFocus id="phone-number" type="tel" autoComplete="tel" required value={phone} onChange={(event) => setPhone(event.target.value)} placeholder="+91 98765 43210" className="field" /><p className="text-xs leading-5 text-slate-500">{firebaseConfigured ? "Firebase uses your phone number for authentication and abuse prevention. Standard SMS rates may apply." : "Use any valid phone format. Demo mode does not send or store your number."}</p><button disabled={busy} className="primary-button w-full">{busy ? "Sending code…" : "Send OTP"}<ArrowRight size={16} /></button></form>}
         {step === "otp" && <form onSubmit={verify} className="mt-6 space-y-4"><label htmlFor="otp-code" className="block text-xs font-semibold">6-digit verification code</label><input autoFocus id="otp-code" inputMode="numeric" autoComplete="one-time-code" pattern="[0-9]{6}" required maxLength={6} value={otp} onChange={(event) => setOtp(event.target.value.replace(/\D/g, ""))} placeholder="000000" className="field text-center text-xl tracking-[.6em]" /><button disabled={busy} className="primary-button w-full">{busy ? "Verifying…" : "Verify & continue"}<ArrowRight size={16} /></button><button type="button" disabled={busy} onClick={() => sendOtp()} className="w-full py-1 text-xs font-medium text-indigo-600">Resend code</button></form>}
         {step === "success" && <button onClick={close} className="primary-button mt-6 w-full"><Check size={17} />Continue exploring</button>}
