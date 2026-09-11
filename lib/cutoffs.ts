@@ -1,12 +1,14 @@
 import round1Data from "../data/round1-cutoffs.json";
+import round2Data from "../data/round2-cutoffs.json";
 import round3Data from "../data/round3-cutoffs.json";
 import svr1Data from "../data/svr1-cutoffs.json";
+import svr2Data from "../data/svr2-cutoffs.json";
 
 export type Course = "BAMS" | "BHMS" | "BSMS" | "BUMS" | "B.Pharm";
 export type CollegeKind = "Government" | "Central" | "Aided" | "Deemed" | "Private";
 export type CollegePreference = "All" | CollegeKind;
 export type Category = "General" | "OBC" | "EWS" | "SC" | "ST";
-export type CounsellingRound = "R1" | "R3" | "SVR1";
+export type CounsellingRound = "R1" | "R2" | "R3" | "SVR1" | "SVR2";
 export type RoundSelection = "ALL" | CounsellingRound | number;
 export type MatchStatus = "SAFE" | "GOOD CHANCE" | "COMPETITIVE" | "REACH";
 
@@ -32,8 +34,10 @@ export type CutoffRecord = {
 
 export type RoundTrends = {
   R1?: number;
+  R2?: number;
   R3?: number;
   SVR1?: number;
+  SVR2?: number;
 };
 
 export type PredictionMatch = CutoffRecord & {
@@ -70,6 +74,14 @@ export const DATA_SOURCES_METADATA = [
   {
     year: 2025,
     counselling: "AACCC UG",
+    round: "R2" as CounsellingRound,
+    title: "AACCC UG Counselling Round 2 Allotment Data",
+    sourceUrl: "https://aaccc.gov.in",
+    publishedDate: "2025-09-23",
+  },
+  {
+    year: 2025,
+    counselling: "AACCC UG",
     round: "R3" as CounsellingRound,
     title: "AACCC UG Counselling Round 3 Allotment Data",
     sourceUrl: "https://aaccc.gov.in",
@@ -83,12 +95,22 @@ export const DATA_SOURCES_METADATA = [
     sourceUrl: "https://cdnbbsr.s3waas.gov.in/s3653ac11ca60b3e021a8c609c7198acfc/uploads/2025/11/202511081701832043.pdf",
     publishedDate: "2025-11-07",
   },
+  {
+    year: 2025,
+    counselling: "AACCC UG",
+    round: "SVR2" as CounsellingRound,
+    title: "Ayurveda/ Siddha/ Unani / Homoeopathy UG Counselling Seats Allotment - 2025 Stray Round II",
+    sourceUrl: "https://aaccc.gov.in",
+    publishedDate: "2025-11-20",
+  },
 ];
 
 export const cutoffRecords = [
   ...(round1Data as CutoffRecord[]),
+  ...(round2Data as CutoffRecord[]),
   ...(round3Data as CutoffRecord[]),
   ...(svr1Data as CutoffRecord[]),
+  ...(svr2Data as CutoffRecord[]),
 ];
 
 export const STATES = [
@@ -109,7 +131,9 @@ export const formatRank = (rank: number): string => new Intl.NumberFormat("en-IN
 
 export function normalizeRound(round: CounsellingRound | number | string): CounsellingRound {
   if (round === 1 || round === "1" || round === "R1") return "R1";
+  if (round === 2 || round === "2" || round === "R2") return "R2";
   if (round === 3 || round === "3" || round === "R3") return "R3";
+  if (round === "SVR2") return "SVR2";
   return "SVR1";
 }
 
@@ -117,8 +141,10 @@ export function formatRound(round: CounsellingRound | number | string): string {
   const norm = normalizeRound(round);
   switch (norm) {
     case "R1": return "Round 1";
+    case "R2": return "Round 2";
     case "R3": return "Round 3";
     case "SVR1": return "Stray Vacancy Round I";
+    case "SVR2": return "Stray Vacancy Round II";
   }
 }
 
@@ -256,7 +282,7 @@ export function getSeatTrendKey(record: { name: string; course: string; quota: s
   return `${normName}||${record.course}||${normQuota}||${record.category}||${record.pwbd}`;
 }
 
-// Precomputed round trends map across R1, R3, and SVR1
+// Precomputed round trends map across the imported counselling rounds.
 const roundTrendsCache: Map<string, RoundTrends> = (() => {
   const map = new Map<string, RoundTrends>();
   for (const record of cutoffRecords) {
@@ -266,10 +292,14 @@ const roundTrendsCache: Map<string, RoundTrends> = (() => {
     const r = normalizeRound(record.round);
     if (r === "R1") {
       entry.R1 = entry.R1 ? Math.max(entry.R1, record.closingRank) : record.closingRank;
+    } else if (r === "R2") {
+      entry.R2 = entry.R2 ? Math.max(entry.R2, record.closingRank) : record.closingRank;
     } else if (r === "R3") {
       entry.R3 = entry.R3 ? Math.max(entry.R3, record.closingRank) : record.closingRank;
     } else if (r === "SVR1") {
       entry.SVR1 = entry.SVR1 ? Math.max(entry.SVR1, record.closingRank) : record.closingRank;
+    } else if (r === "SVR2") {
+      entry.SVR2 = entry.SVR2 ? Math.max(entry.SVR2, record.closingRank) : record.closingRank;
     }
   }
   return map;

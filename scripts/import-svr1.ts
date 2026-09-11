@@ -1,7 +1,11 @@
 import fs from "fs";
 import path from "path";
 import crypto from "crypto";
-import { PDFParse } from "pdf-parse";
+// pdf-parse is an optional, local import utility rather than app runtime code.
+// eslint-disable-next-line @typescript-eslint/no-require-imports
+const { PDFParse } = require("pdf-parse") as {
+  PDFParse: new (options: { data: Buffer }) => { getText: () => Promise<{ text: string }> };
+};
 import round1Data from "../data/round1-cutoffs.json";
 import round3Data from "../data/round3-cutoffs.json";
 

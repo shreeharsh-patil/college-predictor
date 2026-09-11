@@ -41,8 +41,10 @@ const preferences: { value: CollegePreference; label: string }[] = [
 const roundOptions: { value: RoundSelection; label: string }[] = [
   { value: "ALL", label: "Best available across rounds" },
   { value: "R1", label: "Round 1" },
+  { value: "R2", label: "Round 2" },
   { value: "R3", label: "Round 3" },
   { value: "SVR1", label: "Stray Vacancy Round I (SVR-I)" },
+  { value: "SVR2", label: "Stray Vacancy Round II (SVR-II)" },
 ];
 
 type SubmittedProfile = {
@@ -351,9 +353,8 @@ export function Predictor() {
               See how your profile compares.
             </h2>
             <p className="mt-4 max-w-md text-sm leading-7 text-slate-500">
-              Compare your NEET AIR across official Round 1, Round 3, and 2025 Stray
-              Vacancy Round I (SVR-I) with {cutoffRecords.length} opening and closing
-              rank records.
+              Compare your NEET AIR across official 2025 counselling rounds with {cutoffRecords.length}
+              opening and closing rank records.
             </p>
           </div>
         ) : (
@@ -399,7 +400,7 @@ export function Predictor() {
             </div>
 
             {/* Stray Vacancy Round Warning Banner */}
-            {(activeRound === "SVR1" || submitted.round === "SVR1") && (
+            {(activeRound === "SVR1" || activeRound === "SVR2" || submitted.round === "SVR1" || submitted.round === "SVR2") && (
               <div className="mb-5 flex items-start gap-3 rounded-xl border border-amber-200 bg-amber-50/80 p-4 text-xs leading-5 text-amber-900 shadow-sm">
                 <AlertTriangle size={17} className="mt-0.5 shrink-0 text-amber-600" />
                 <p>
@@ -449,8 +450,10 @@ export function Predictor() {
                 >
                   <option value="ALL">All rounds</option>
                   <option value="R1">Round 1</option>
+                  <option value="R2">Round 2</option>
                   <option value="R3">Round 3</option>
                   <option value="SVR1">SVR-I</option>
+                  <option value="SVR2">SVR-II</option>
                 </select>
 
                 {/* Course filter */}
@@ -564,10 +567,7 @@ export function Predictor() {
             {/* Results List */}
             <div className="space-y-4">
               {matches.map((record) => {
-                const roundBadgeText =
-                  record.evaluatedRound === "SVR1"
-                    ? "SVR-I 2025"
-                    : `2025 ${formatRound(record.evaluatedRound).toUpperCase()}`;
+                const roundBadgeText = `2025 ${formatRound(record.evaluatedRound)}`;
 
                 const statusColor =
                   record.matchStatus === "SAFE"
@@ -612,7 +612,7 @@ export function Predictor() {
                           </h3>
                           <p className="mt-1 text-[11px] text-slate-500">
                             {record.quota}
-                            {record.allotmentCount ? ` · ${record.allotmentCount} SVR-I allotment(s)` : ""}
+                            {record.allotmentCount ? ` · ${record.allotmentCount} ${formatRound(record.evaluatedRound)} allotment(s)` : ""}
                           </p>
                         </div>
                       </div>
@@ -679,47 +679,24 @@ export function Predictor() {
                     {/* Multi-Round Trend Tracker */}
                     {record.roundTrends &&
                       (record.roundTrends.R1 ||
+                        record.roundTrends.R2 ||
                         record.roundTrends.R3 ||
-                        record.roundTrends.SVR1) && (
+                        record.roundTrends.SVR1 ||
+                        record.roundTrends.SVR2) && (
                         <div className="mt-4 flex flex-wrap items-center gap-3 border-t border-slate-100 pt-3 text-[11px]">
                           <span className="flex items-center gap-1 font-medium text-slate-500">
                             <TrendingUp size={13} className="text-indigo-500" />
                             Multi-Round Closing Trends:
                           </span>
                           <div className="flex flex-wrap items-center gap-2">
-                            {record.roundTrends.R1 !== undefined && (
-                              <span
-                                className={`rounded-md px-2 py-0.5 font-medium ${
-                                  record.evaluatedRound === "R1"
-                                    ? "bg-indigo-100 font-semibold text-indigo-800"
-                                    : "bg-slate-100 text-slate-600"
-                                }`}
-                              >
-                                R1: {formatRank(record.roundTrends.R1)}
-                              </span>
-                            )}
-                            {record.roundTrends.R3 !== undefined && (
-                              <span
-                                className={`rounded-md px-2 py-0.5 font-medium ${
-                                  record.evaluatedRound === "R3"
-                                    ? "bg-indigo-100 font-semibold text-indigo-800"
-                                    : "bg-slate-100 text-slate-600"
-                                }`}
-                              >
-                                R3: {formatRank(record.roundTrends.R3)}
-                              </span>
-                            )}
-                            {record.roundTrends.SVR1 !== undefined && (
-                              <span
-                                className={`rounded-md px-2 py-0.5 font-medium ${
-                                  record.evaluatedRound === "SVR1"
-                                    ? "bg-indigo-100 font-semibold text-indigo-800"
-                                    : "bg-slate-100 text-slate-600"
-                                }`}
-                              >
-                                SVR-I: {formatRank(record.roundTrends.SVR1)}
-                              </span>
-                            )}
+                            {(["R1", "R2", "R3", "SVR1", "SVR2"] as const).map((roundKey) => {
+                              const trendRank = record.roundTrends[roundKey];
+                              if (trendRank === undefined) return null;
+                              const label = roundKey.startsWith("SVR") ? `SVR-${roundKey.at(-1)}` : roundKey;
+                              return <span key={roundKey} className={`rounded-md px-2 py-0.5 font-medium ${record.evaluatedRound === roundKey ? "bg-indigo-100 font-semibold text-indigo-800" : "bg-slate-100 text-slate-600"}`}>
+                                {label}: {formatRank(trendRank)}
+                              </span>;
+                            })}
                           </div>
                         </div>
                       )}
@@ -767,10 +744,9 @@ export function Predictor() {
               </summary>
               <p className="mt-2">
                 Opening and closing ranks are compiled from the official 2025 AACCC UG
-                allotment documents across Round 1, Round 3, and the official Stray
-                Vacancy Round I (SVR-I). Round 3 reflects 1,180 candidates, and SVR-I
-                reflects 417 official allotments released by the Ministry of Ayush
-                Counselling Committee.
+                allotment documents across Round 1, Round 2, Round 3, Stray Vacancy Round I
+                (SVR-I), and Stray Vacancy Round II (SVR-II). The imported Round 2 document
+                contains 1,956 allotments and the SVR-II document contains 122 allotments.
               </p>
               <p className="mt-2">
                 Official SVR-I Reference:{" "}

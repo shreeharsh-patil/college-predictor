@@ -1,0 +1,2148 @@
+[
+  {
+    "id": "svr2-bdb066a5e8",
+    "name": "All India Institute of Ayurveda, North Goa, Goa-403513,Dhargal Village, Pernem",
+    "course": "BAMS",
+    "openingRank": 51350,
+    "closingRank": 51350,
+    "allotmentCount": 1,
+    "ranks": [
+      51350
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Goa",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-eae1c33e3a",
+    "name": "Amrita School of Ayurveda,Amrita School of Ayurveda, Vallikavu, Clappana P.O",
+    "course": "BAMS",
+    "openingRank": 770515,
+    "closingRank": 770515,
+    "allotmentCount": 1,
+    "ranks": [
+      770515
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Management/Paid Seats Quota",
+    "state": "Kerala",
+    "kind": "Deemed",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-0a4b0e988e",
+    "name": "Athurasramam N.S.S. Homoeopathic Medical College,SACHIVOTHAMAPURAM P.O",
+    "course": "BHMS",
+    "openingRank": 169396,
+    "closingRank": 169396,
+    "allotmentCount": 1,
+    "ranks": [
+      169396
+    ],
+    "allottedCategory": "EWS",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "EWS",
+    "pwbd": false,
+    "seatCategories": [
+      "EWS"
+    ],
+    "quota": "All India Quota Govt Aided",
+    "state": "Kerala",
+    "kind": "Aided",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-73f50f6103",
+    "name": "Ayurved Mahavidyalaya and Hospital, Old Hubli, Karnataka,HEGGERI EXTENSION",
+    "course": "BAMS",
+    "openingRank": 76886,
+    "closingRank": 76886,
+    "allotmentCount": 1,
+    "ranks": [
+      76886
+    ],
+    "allottedCategory": "EWS",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "EWS",
+    "pwbd": false,
+    "seatCategories": [
+      "EWS"
+    ],
+    "quota": "All India Quota Govt Aided",
+    "state": "Karnataka",
+    "kind": "Aided",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-15c9641150",
+    "name": "Ayurvedic and Unani Tibbia College-Ayurveda, Karol Bagh, Delhi,A AND U TIBBIA COLLEGE AND HOSPITALAjmal Khan Road Karol Bagh New Delhi, Delhi (NCT), 110005",
+    "course": "BUMS",
+    "openingRank": 59612,
+    "closingRank": 59612,
+    "allotmentCount": 1,
+    "ranks": [
+      59612
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Delhi",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-2799b4b6bf",
+    "name": "Ayurvedic and Unani Tibbia College-Ayurveda, Karol Bagh, Delhi,A AND U TIBBIA COLLEGE AND HOSPITALAjmal Khan Road Karol Bagh New Delhi, Delhi (NCT), 110005",
+    "course": "BUMS",
+    "openingRank": 72548,
+    "closingRank": 72548,
+    "allotmentCount": 1,
+    "ranks": [
+      72548
+    ],
+    "allottedCategory": "OBC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "OBC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Delhi",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-ca6e4a97ce",
+    "name": "Ayurvedic and Unani Tibbia College-Ayurveda, Karol Bagh, Delhi,A AND U TIBBIA COLLEGE AND HOSPITALAjmal Khan Road Karol Bagh New Delhi, Delhi (NCT), 110005",
+    "course": "BUMS",
+    "openingRank": 214991,
+    "closingRank": 214991,
+    "allotmentCount": 1,
+    "ranks": [
+      214991
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Delhi",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-decb732638",
+    "name": "Ayurvidya Prasarak Mandals Ayurved Mahavidyalaya, Sion, Mumbai,Near Sion",
+    "course": "BAMS",
+    "openingRank": 70068,
+    "closingRank": 70068,
+    "allotmentCount": 1,
+    "ranks": [
+      70068
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "General",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "All India Quota Govt Aided",
+    "state": "Maharashtra",
+    "kind": "Aided",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-b836c08672",
+    "name": "Ayurvidya Prasarak Mandals Ayurved Mahavidyalaya, Sion, Mumbai,Near Sion",
+    "course": "BAMS",
+    "openingRank": 200756,
+    "closingRank": 200756,
+    "allotmentCount": 1,
+    "ranks": [
+      200756
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "All India Quota Govt Aided",
+    "state": "Maharashtra",
+    "kind": "Aided",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-5b5ededb15",
+    "name": "Bharati Vidyapeeth Deemed University i.e. B.V.D.U., College of Ayurved, Pune",
+    "course": "BAMS",
+    "openingRank": 492397,
+    "closingRank": 492397,
+    "allotmentCount": 1,
+    "ranks": [
+      492397
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Management/Paid Seats Quota",
+    "state": "Maharashtra",
+    "kind": "Deemed",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-83e59ca1c6",
+    "name": "BHARTEEYA SANSKRIT PRABODHINI GOMANTAK AYURVEDA MAHAVIDYALAY AND RESEARCH CENTRE, SHIRODA, NORTH GOA,SHIRODA, Tq. PONDA DIST. NORTH GOA",
+    "course": "BAMS",
+    "openingRank": 268036,
+    "closingRank": 268036,
+    "allotmentCount": 1,
+    "ranks": [
+      268036
+    ],
+    "allottedCategory": "ST",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "ST",
+    "pwbd": false,
+    "seatCategories": [
+      "ST"
+    ],
+    "quota": "All India Quota Govt Aided",
+    "state": "Goa",
+    "kind": "Aided",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-7715944f71",
+    "name": "Dr Abdul Haq Unani Medical College, Kurnool, Andhra Pradesh,Dr Abdul Haq Unani Medical College Kurnool Andhra Pradesh, Andhra Pradesh, 518001",
+    "course": "BUMS",
+    "openingRank": 199278,
+    "closingRank": 199278,
+    "allotmentCount": 1,
+    "ranks": [
+      199278
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Muslim Minority Quota (Govt Aided)",
+    "state": "Andhra Pradesh",
+    "kind": "Aided",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-e99ec797e6",
+    "name": "Dr. D. Y. Patil College of Ayurved and Research Centre, Pune",
+    "course": "BAMS",
+    "openingRank": 593550,
+    "closingRank": 593550,
+    "allotmentCount": 1,
+    "ranks": [
+      593550
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "General",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Management/Paid Seats Quota",
+    "state": "Maharashtra",
+    "kind": "Deemed",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-a1425f15a7",
+    "name": "Dr. D. Y. Patil College of Ayurved and Research Centre, Pune",
+    "course": "BAMS",
+    "openingRank": 559680,
+    "closingRank": 586532,
+    "allotmentCount": 2,
+    "ranks": [
+      559680,
+      586532
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Management/Paid Seats Quota",
+    "state": "Maharashtra",
+    "kind": "Deemed",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-0214331c68",
+    "name": "Dr. DY Patil Homoeopathic Medical College and Research Centre, Pune",
+    "course": "BHMS",
+    "openingRank": 1174669,
+    "closingRank": 1174669,
+    "allotmentCount": 1,
+    "ranks": [
+      1174669
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Management/Paid Seats Quota",
+    "state": "Maharashtra",
+    "kind": "Deemed",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-efa55f110b",
+    "name": "Dr.Allu Ramaligaiah Govt. Homoeopathic Medical College , Godavari, Andhra",
+    "course": "BHMS",
+    "openingRank": 109310,
+    "closingRank": 109310,
+    "allotmentCount": 1,
+    "ranks": [
+      109310
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "General",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Andhra Pradesh",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-6b0f3a19f4",
+    "name": "Dr.Allu Ramaligaiah Govt. Homoeopathic Medical College , Godavari, Andhra",
+    "course": "BHMS",
+    "openingRank": 114652,
+    "closingRank": 114652,
+    "allotmentCount": 1,
+    "ranks": [
+      114652
+    ],
+    "allottedCategory": "OBC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "OBC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Andhra Pradesh",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-0b97a8d02b",
+    "name": "Government Ayurveda College and Hospital, Baramati, Pune,Government Ayurved",
+    "course": "BAMS",
+    "openingRank": 66042,
+    "closingRank": 66042,
+    "allotmentCount": 1,
+    "ranks": [
+      66042
+    ],
+    "allottedCategory": "OBC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "OBC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Maharashtra",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-7a31970957",
+    "name": "Government Dhanwantri Ayurveda College, Ujjain, Madhya Pradesh,Mangal Nath",
+    "course": "BAMS",
+    "openingRank": 57452,
+    "closingRank": 57452,
+    "allotmentCount": 1,
+    "ranks": [
+      57452
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "General",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Madhya Pradesh",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-64c9eca784",
+    "name": "Government Homoeopathic Medical College and Hospital, Aligarh, Uttar",
+    "course": "BHMS",
+    "openingRank": 100508,
+    "closingRank": 100508,
+    "allotmentCount": 1,
+    "ranks": [
+      100508
+    ],
+    "allottedCategory": "OBC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "OBC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Uttar Pradesh",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-4d612a0ad6",
+    "name": "Government Homoeopathic Medical College, Bengaluru, Karnataka,Dr. Siddaiah",
+    "course": "BHMS",
+    "openingRank": 94921,
+    "closingRank": 94921,
+    "allotmentCount": 1,
+    "ranks": [
+      94921
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "General",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Karnataka",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-9d25f8e7c5",
+    "name": "Government Homoeopathic Medical College, Bengaluru, Karnataka,Dr. Siddaiah",
+    "course": "BHMS",
+    "openingRank": 96186,
+    "closingRank": 96186,
+    "allotmentCount": 1,
+    "ranks": [
+      96186
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Karnataka",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-243028a3cf",
+    "name": "Government Nizamia Tibbia College, Hyderabad, Telangana,Opposite Charminar",
+    "course": "BUMS",
+    "openingRank": 402454,
+    "closingRank": 430864,
+    "allotmentCount": 2,
+    "ranks": [
+      402454,
+      430864
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Telangana",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-c1c0c7a2e3",
+    "name": "Government Nizamia Tibbia College, Hyderabad, Telangana,Opposite Charminar",
+    "course": "BUMS",
+    "openingRank": 362921,
+    "closingRank": 362921,
+    "allotmentCount": 1,
+    "ranks": [
+      362921
+    ],
+    "allottedCategory": "ST",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "ST",
+    "pwbd": false,
+    "seatCategories": [
+      "ST"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Telangana",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-fa2e1a6cc4",
+    "name": "GOVT AYURVEDA COLLEGE, KANNUR, Kerala,MEDICAL COLLEGE P O",
+    "course": "BAMS",
+    "openingRank": 69888,
+    "closingRank": 71238,
+    "allotmentCount": 2,
+    "ranks": [
+      69888,
+      71238
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "General",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Kerala",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-bbd3acb8ef",
+    "name": "Govt. Ayurved Mahavidyalaya Government Ayurveda College, Vadodara",
+    "course": "BAMS",
+    "openingRank": 59485,
+    "closingRank": 59485,
+    "allotmentCount": 1,
+    "ranks": [
+      59485
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Gujarat",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-03880dde9b",
+    "name": "Govt. Ayurveda College, Thiruvananthapuram, Kerala,MG ROAD",
+    "course": "BAMS",
+    "openingRank": 227639,
+    "closingRank": 227639,
+    "allotmentCount": 1,
+    "ranks": [
+      227639
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Kerala",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-ad1d8a22d0",
+    "name": "Govt. Homoeopathic Medical College and Hospital, Bhopal, Madhya Pradesh,AYUSH",
+    "course": "BHMS",
+    "openingRank": 107833,
+    "closingRank": 107833,
+    "allotmentCount": 1,
+    "ranks": [
+      107833
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Madhya Pradesh",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-2a1965238b",
+    "name": "Govt. Homoeopathic Medical College, Jalgaon,SHRI GULABRAO DEOKAR",
+    "course": "BHMS",
+    "openingRank": 130560,
+    "closingRank": 130560,
+    "allotmentCount": 1,
+    "ranks": [
+      130560
+    ],
+    "allottedCategory": "EWS",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "EWS",
+    "pwbd": false,
+    "seatCategories": [
+      "EWS"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Maharashtra",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-13a645fa7a",
+    "name": "Govt. Homoeopathic Medical College, Kozhikode, Kerala ,KARAPARAMBA",
+    "course": "BHMS",
+    "openingRank": 133496,
+    "closingRank": 133496,
+    "allotmentCount": 1,
+    "ranks": [
+      133496
+    ],
+    "allottedCategory": "EWS",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "EWS",
+    "pwbd": false,
+    "seatCategories": [
+      "EWS"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Kerala",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-3ff097142e",
+    "name": "Govt. Siddha Medical College, Tirunelveli, Tamil Nadu,2 LANGARKANA STREET",
+    "course": "BSMS",
+    "openingRank": 459776,
+    "closingRank": 459776,
+    "allotmentCount": 1,
+    "ranks": [
+      459776
+    ],
+    "allottedCategory": "EWS",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "EWS",
+    "pwbd": false,
+    "seatCategories": [
+      "EWS"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Tamil Nadu",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-890ba8a7e8",
+    "name": "Govt. Siddha Medical College, Tirunelveli, Tamil Nadu,2 LANGARKANA STREET",
+    "course": "BSMS",
+    "openingRank": 524391,
+    "closingRank": 524391,
+    "allotmentCount": 1,
+    "ranks": [
+      524391
+    ],
+    "allottedCategory": "ST",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "ST",
+    "pwbd": false,
+    "seatCategories": [
+      "ST"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Tamil Nadu",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-a914a26abd",
+    "name": "Govt. Tibbia College, Patna, Bihar,Near Buddha Murti, Kadam Kuan, Patna, Bihar, 800003",
+    "course": "BUMS",
+    "openingRank": 98743,
+    "closingRank": 98743,
+    "allotmentCount": 1,
+    "ranks": [
+      98743
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Bihar",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-45adfd9631",
+    "name": "Govt. Unani Medical College, Bengaluru, Karnataka ,Dr Siddiah Puranik Road",
+    "course": "BUMS",
+    "openingRank": 442098,
+    "closingRank": 449835,
+    "allotmentCount": 2,
+    "ranks": [
+      442098,
+      449835
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Karnataka",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-da1085dc96",
+    "name": "Govt. Unani Medical College, Chennai, Tamil Nadu,GOVERNMENT UNANI MEDICAL COLLEGE,CHENNAI-106, Tamil Nadu, 600106",
+    "course": "BUMS",
+    "openingRank": 449306,
+    "closingRank": 449306,
+    "allotmentCount": 1,
+    "ranks": [
+      449306
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Tamil Nadu",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-b778da320b",
+    "name": "Gujarat Homeopathic Medical College ,Near Bus Stand, At Post SavliDist. Vadodara",
+    "course": "BHMS",
+    "openingRank": 107511,
+    "closingRank": 107511,
+    "allotmentCount": 1,
+    "ranks": [
+      107511
+    ],
+    "allottedCategory": "OBC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "OBC"
+    ],
+    "quota": "All India Quota Govt Aided",
+    "state": "Gujarat",
+    "kind": "Aided",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-c579a15320",
+    "name": "Hakim Syed Ziaul Hassan Govt. Unani Medical College and Hospital, Bhopal, Madhya Pradesh,AYUSH PARISAR, BEHIND MANIT,NEHRU NAGAR KOLAR BYPASS ROAD BHOPAL, Madhya Pradesh, 462003",
+    "course": "BUMS",
+    "openingRank": 451851,
+    "closingRank": 451851,
+    "allotmentCount": 1,
+    "ranks": [
+      451851
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Madhya Pradesh",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-e79605ab5a",
+    "name": "Hakim Syed Ziaul Hassan Govt. Unani Medical College and Hospital, Bhopal, Madhya Pradesh,AYUSH PARISAR, BEHIND MANIT,NEHRU NAGAR KOLAR BYPASS ROAD BHOPAL, Madhya Pradesh, 462003",
+    "course": "BUMS",
+    "openingRank": 608253,
+    "closingRank": 608253,
+    "allotmentCount": 1,
+    "ranks": [
+      608253
+    ],
+    "allottedCategory": "ST",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "ST",
+    "pwbd": false,
+    "seatCategories": [
+      "ST"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Madhya Pradesh",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-4f5f914658",
+    "name": "Institute of Teaching & Research in Ayurved Pharmacy,Institute of Teaching &",
+    "course": "B.Pharm",
+    "openingRank": 295638,
+    "closingRank": 367260,
+    "allotmentCount": 2,
+    "ranks": [
+      295638,
+      367260
+    ],
+    "allottedCategory": "EWS",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "EWS",
+    "pwbd": false,
+    "seatCategories": [
+      "EWS"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Gujarat",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-2b47cec2ff",
+    "name": "Institute of Teaching & Research in Ayurved Pharmacy,Institute of Teaching &",
+    "course": "B.Pharm",
+    "openingRank": 191490,
+    "closingRank": 238867,
+    "allotmentCount": 4,
+    "ranks": [
+      191490,
+      205131,
+      221818,
+      238867
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "General",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Gujarat",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-7c9b7145f5",
+    "name": "Institute of Teaching & Research in Ayurved Pharmacy,Institute of Teaching &",
+    "course": "B.Pharm",
+    "openingRank": 230499,
+    "closingRank": 239743,
+    "allotmentCount": 4,
+    "ranks": [
+      230499,
+      231360,
+      236745,
+      239743
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Gujarat",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-a77ce11972",
+    "name": "Institute of Teaching & Research in Ayurved Pharmacy,Institute of Teaching &",
+    "course": "B.Pharm",
+    "openingRank": 241963,
+    "closingRank": 249887,
+    "allotmentCount": 4,
+    "ranks": [
+      241963,
+      242295,
+      246782,
+      249887
+    ],
+    "allottedCategory": "OBC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "OBC"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Gujarat",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-5c71df53d7",
+    "name": "Institute of Teaching & Research in Ayurved Pharmacy,Institute of Teaching &",
+    "course": "B.Pharm",
+    "openingRank": 378275,
+    "closingRank": 389852,
+    "allotmentCount": 3,
+    "ranks": [
+      378275,
+      385675,
+      389852
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Gujarat",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-da7f566384",
+    "name": "Institute of Teaching and Research in Ayurveda, Jamnagar, Gujarat,Dhanvantari",
+    "course": "BAMS",
+    "openingRank": 37517,
+    "closingRank": 37517,
+    "allotmentCount": 1,
+    "ranks": [
+      37517
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "EWS",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Gujarat",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-1ff016b3ee",
+    "name": "Institute of Teaching and Research in Ayurveda, Jamnagar, Gujarat,Dhanvantari",
+    "course": "BAMS",
+    "openingRank": 37458,
+    "closingRank": 37458,
+    "allotmentCount": 1,
+    "ranks": [
+      37458
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "General",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Gujarat",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-d8d66909a9",
+    "name": "Institute of Teaching and Research in Ayurveda, Jamnagar, Gujarat,Dhanvantari",
+    "course": "BAMS",
+    "openingRank": 37481,
+    "closingRank": 38890,
+    "allotmentCount": 4,
+    "ranks": [
+      37481,
+      38400,
+      38515,
+      38890
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Gujarat",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-2a7b549a2d",
+    "name": "JSVV Samsthe's Danappa Gurushiddappa Melmalagi,JSVV Samthes DGM Ayurvedic",
+    "course": "BAMS",
+    "openingRank": 77461,
+    "closingRank": 77461,
+    "allotmentCount": 1,
+    "ranks": [
+      77461
+    ],
+    "allottedCategory": "EWS",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "EWS",
+    "pwbd": false,
+    "seatCategories": [
+      "EWS"
+    ],
+    "quota": "All India Quota Govt Aided",
+    "state": "Karnataka",
+    "kind": "Aided",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-58f90da69e",
+    "name": "JSVV Samsthe's Danappa Gurushiddappa Melmalagi,JSVV Samthes DGM Ayurvedic",
+    "course": "BAMS",
+    "openingRank": 72935,
+    "closingRank": 72935,
+    "allotmentCount": 1,
+    "ranks": [
+      72935
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "General",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "All India Quota Govt Aided",
+    "state": "Karnataka",
+    "kind": "Aided",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-e93cc25f80",
+    "name": "JSVV Samsthe's Danappa Gurushiddappa Melmalagi,JSVV Samthes DGM Ayurvedic",
+    "course": "BAMS",
+    "openingRank": 77002,
+    "closingRank": 78465,
+    "allotmentCount": 2,
+    "ranks": [
+      77002,
+      78465
+    ],
+    "allottedCategory": "OBC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "OBC"
+    ],
+    "quota": "All India Quota Govt Aided",
+    "state": "Karnataka",
+    "kind": "Aided",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-71cda8e822",
+    "name": "JSVV Samsthe's Danappa Gurushiddappa Melmalagi,JSVV Samthes DGM Ayurvedic",
+    "course": "BAMS",
+    "openingRank": 233306,
+    "closingRank": 233306,
+    "allotmentCount": 1,
+    "ranks": [
+      233306
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "All India Quota Govt Aided",
+    "state": "Karnataka",
+    "kind": "Aided",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-28ced583a1",
+    "name": "JSVV Samsthe's Danappa Gurushiddappa Melmalagi,JSVV Samthes DGM Ayurvedic",
+    "course": "BAMS",
+    "openingRank": 275208,
+    "closingRank": 275208,
+    "allotmentCount": 1,
+    "ranks": [
+      275208
+    ],
+    "allottedCategory": "ST",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "ST",
+    "pwbd": false,
+    "seatCategories": [
+      "ST"
+    ],
+    "quota": "All India Quota Govt Aided",
+    "state": "Karnataka",
+    "kind": "Aided",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-42ce1d740e",
+    "name": "KLE University Shri.BM Kankanawadi Ayurveda Mahavidyalaya Post Graduate",
+    "course": "BAMS",
+    "openingRank": 392330,
+    "closingRank": 392330,
+    "allotmentCount": 1,
+    "ranks": [
+      392330
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "EWS",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Management/Paid Seats Quota",
+    "state": "Karnataka",
+    "kind": "Deemed",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-24692f8b9a",
+    "name": "Mahesh Bhattacharya Homoeopathic Medical College and Hospital, Howrah, West",
+    "course": "BHMS",
+    "openingRank": 90043,
+    "closingRank": 90043,
+    "allotmentCount": 1,
+    "ranks": [
+      90043
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "All India Quota Government",
+    "state": "West Bengal",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-53668e9543",
+    "name": "National Institute of Ayurveda, Deemed to be University, Jaipur, Rajasthan,Jorawar",
+    "course": "BAMS",
+    "openingRank": 37265,
+    "closingRank": 37265,
+    "allotmentCount": 1,
+    "ranks": [
+      37265
+    ],
+    "allottedCategory": "EWS",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "EWS",
+    "pwbd": false,
+    "seatCategories": [
+      "EWS"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Rajasthan",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-b50fd50669",
+    "name": "National Institute of Ayurveda, Deemed to be University, Jaipur, Rajasthan,Jorawar",
+    "course": "BAMS",
+    "openingRank": 32910,
+    "closingRank": 33062,
+    "allotmentCount": 2,
+    "ranks": [
+      32910,
+      33062
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "General",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Rajasthan",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-463948d388",
+    "name": "National Institute of Ayurveda, Deemed to be University, Jaipur, Rajasthan,Jorawar",
+    "course": "BAMS",
+    "openingRank": 28188,
+    "closingRank": 36132,
+    "allotmentCount": 5,
+    "ranks": [
+      28188,
+      34196,
+      35321,
+      35624,
+      36132
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Rajasthan",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-0fe0d101d4",
+    "name": "National Institute of Ayurveda, Deemed to be University, Jaipur, Rajasthan,Jorawar",
+    "course": "BAMS",
+    "openingRank": 172789,
+    "closingRank": 172789,
+    "allotmentCount": 1,
+    "ranks": [
+      172789
+    ],
+    "allottedCategory": "ST",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "ST",
+    "pwbd": false,
+    "seatCategories": [
+      "ST"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Rajasthan",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-f896b96267",
+    "name": "National Institute of Siddha, Chennai, Tamil Nadu,GST Road, Tambaram Sanatorium",
+    "course": "BSMS",
+    "openingRank": 459019,
+    "closingRank": 459019,
+    "allotmentCount": 1,
+    "ranks": [
+      459019
+    ],
+    "allottedCategory": "EWS",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "EWS",
+    "pwbd": false,
+    "seatCategories": [
+      "EWS"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Tamil Nadu",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-23c8028d84",
+    "name": "National Institute of Siddha, Chennai, Tamil Nadu,GST Road, Tambaram Sanatorium",
+    "course": "BSMS",
+    "openingRank": 95638,
+    "closingRank": 95638,
+    "allotmentCount": 1,
+    "ranks": [
+      95638
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Tamil Nadu",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-56954a7b98",
+    "name": "National Institute of Siddha, Chennai, Tamil Nadu,GST Road, Tambaram Sanatorium",
+    "course": "BSMS",
+    "openingRank": 111747,
+    "closingRank": 111747,
+    "allotmentCount": 1,
+    "ranks": [
+      111747
+    ],
+    "allottedCategory": "OBC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "OBC"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Tamil Nadu",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-d577e5f7e0",
+    "name": "National Institute of Siddha, Chennai, Tamil Nadu,GST Road, Tambaram Sanatorium",
+    "course": "BSMS",
+    "openingRank": 279361,
+    "closingRank": 279361,
+    "allotmentCount": 1,
+    "ranks": [
+      279361
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Tamil Nadu",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-a60297b11a",
+    "name": "National Institute of Siddha, Chennai, Tamil Nadu,GST Road, Tambaram Sanatorium",
+    "course": "BSMS",
+    "openingRank": 791120,
+    "closingRank": 791124,
+    "allotmentCount": 2,
+    "ranks": [
+      791120,
+      791124
+    ],
+    "allottedCategory": "ST",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "ST",
+    "pwbd": false,
+    "seatCategories": [
+      "ST"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Tamil Nadu",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-011146d923",
+    "name": "North Eastern Institute of Ayurveda and Folk Medicine Research, Pasighat, Arunachal",
+    "course": "BAMS",
+    "openingRank": 229143,
+    "closingRank": 229143,
+    "allotmentCount": 1,
+    "ranks": [
+      229143
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Arunachal Pradesh",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-3c936d5bcb",
+    "name": "North Eastern Institute of Ayurveda and Folk Medicine Research, Pasighat, Arunachal",
+    "course": "BAMS",
+    "openingRank": 283666,
+    "closingRank": 283666,
+    "allotmentCount": 1,
+    "ranks": [
+      283666
+    ],
+    "allottedCategory": "ST",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "ST",
+    "pwbd": false,
+    "seatCategories": [
+      "ST"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Arunachal Pradesh",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-844ee603b4",
+    "name": "NORTH EASTERN INSTITUTE OF AYURVEDA AND HOMEOPATHY-",
+    "course": "BHMS",
+    "openingRank": 88629,
+    "closingRank": 88629,
+    "allotmentCount": 1,
+    "ranks": [
+      88629
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "General",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Meghalaya",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-beef9a2a73",
+    "name": "NORTH EASTERN INSTITUTE OF AYURVEDA AND HOMEOPATHY-",
+    "course": "BHMS",
+    "openingRank": 101453,
+    "closingRank": 103605,
+    "allotmentCount": 2,
+    "ranks": [
+      101453,
+      103605
+    ],
+    "allottedCategory": "OBC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "OBC"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Meghalaya",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-2cf4618e72",
+    "name": "NORTH EASTERN INSTITUTE OF AYURVEDA AND HOMEOPATHY-",
+    "course": "BHMS",
+    "openingRank": 266538,
+    "closingRank": 266538,
+    "allotmentCount": 1,
+    "ranks": [
+      266538
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "Central Universities / National Institutions",
+    "state": "Meghalaya",
+    "kind": "Central",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-6e7057ab43",
+    "name": "Pravara Rural Ayurveda College, Ahmednagar,PRAVARA INSTITUTE OF MEDICAL",
+    "course": "BAMS",
+    "openingRank": 467313,
+    "closingRank": 467313,
+    "allotmentCount": 1,
+    "ranks": [
+      467313
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "EWS",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Management/Paid Seats Quota",
+    "state": "Maharashtra",
+    "kind": "Deemed",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-540e51e284",
+    "name": "Pt. Khushilal Sharma, Government Ayurved College, Bhopal, Madhya",
+    "course": "BAMS",
+    "openingRank": 63435,
+    "closingRank": 63435,
+    "allotmentCount": 1,
+    "ranks": [
+      63435
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Madhya Pradesh",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-7cc86960af",
+    "name": "Pt. Khushilal Sharma, Government Ayurved College, Bhopal, Madhya",
+    "course": "BAMS",
+    "openingRank": 65304,
+    "closingRank": 65304,
+    "allotmentCount": 1,
+    "ranks": [
+      65304
+    ],
+    "allottedCategory": "OBC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "OBC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Madhya Pradesh",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-bad0e40f8a",
+    "name": "Rajiv Gandhi Ayurveda Medical College and Hospital, CHALAKKARA, NEW MAHE",
+    "course": "BAMS",
+    "openingRank": 72328,
+    "closingRank": 72328,
+    "allotmentCount": 1,
+    "ranks": [
+      72328
+    ],
+    "allottedCategory": "OBC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "OBC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Puducherry",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-42750896be",
+    "name": "Rajiv Gandhi Ayurveda Medical College and Hospital, CHALAKKARA, NEW MAHE",
+    "course": "BAMS",
+    "openingRank": 288485,
+    "closingRank": 288485,
+    "allotmentCount": 1,
+    "ranks": [
+      288485
+    ],
+    "allottedCategory": "ST",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "ST",
+    "pwbd": false,
+    "seatCategories": [
+      "ST"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Puducherry",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-4c0092c054",
+    "name": "Rajkiya Ayodhya Shivkumar Ayurved College and Hospital, Begusarai",
+    "course": "BAMS",
+    "openingRank": 69748,
+    "closingRank": 69748,
+    "allotmentCount": 1,
+    "ranks": [
+      69748
+    ],
+    "allottedCategory": "OBC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "OBC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Bihar",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-c215d1e5d6",
+    "name": "Shri Ayurved Mahavidyalaya, Nagpur, MS,DHANWANTARI MARG HANUMAN",
+    "course": "BAMS",
+    "openingRank": 72003,
+    "closingRank": 72003,
+    "allotmentCount": 1,
+    "ranks": [
+      72003
+    ],
+    "allottedCategory": "OBC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "OBC"
+    ],
+    "quota": "All India Quota Govt Aided",
+    "state": "Maharashtra",
+    "kind": "Aided",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-d2b90761eb",
+    "name": "Shri Maru Singh Memorial Institute of Ayurved, Sonipat , Haryana.,MSM Institute of",
+    "course": "BAMS",
+    "openingRank": 215922,
+    "closingRank": 215922,
+    "allotmentCount": 1,
+    "ranks": [
+      215922
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Haryana",
+    "kind": "Government",
+    "femaleOnly": true
+  },
+  {
+    "id": "svr2-734ea25082",
+    "name": "Sri Venkateswara Ayurvedic college, Tirupathi, Andhra Pradesh,The Principal,Sri Venkateswara Ayurvedic College,SVIMS campus, Tirupati, Andhra Pradesh, 517501",
+    "course": "BAMS",
+    "openingRank": 224155,
+    "closingRank": 225705,
+    "allotmentCount": 2,
+    "ranks": [
+      224155,
+      225705
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Andhra Pradesh",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-c311011783",
+    "name": "State Homoeopathic Medical College and Hospital, Godda, Jharkhand ,GOVT",
+    "course": "BHMS",
+    "openingRank": 108513,
+    "closingRank": 108513,
+    "allotmentCount": 1,
+    "ranks": [
+      108513
+    ],
+    "allottedCategory": "OBC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "OBC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Jharkhand",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-e163e1e3cd",
+    "name": "State Homoeopathic Medical College and Hospital, Godda, Jharkhand ,GOVT",
+    "course": "BHMS",
+    "openingRank": 273592,
+    "closingRank": 273592,
+    "allotmentCount": 1,
+    "ranks": [
+      273592
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Jharkhand",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-9168859e84",
+    "name": "State Takmil-ut-Tib College and Hospital, Lucknow, Uttar Pradesh,Aurangabad Tiraha",
+    "course": "BUMS",
+    "openingRank": 425464,
+    "closingRank": 425464,
+    "allotmentCount": 1,
+    "ranks": [
+      425464
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Uttar Pradesh",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-810611d6e2",
+    "name": "State Takmil-ut-Tib College and Hospital, Lucknow, Uttar Pradesh,Aurangabad Tiraha",
+    "course": "BUMS",
+    "openingRank": 730540,
+    "closingRank": 730540,
+    "allotmentCount": 1,
+    "ranks": [
+      730540
+    ],
+    "allottedCategory": "ST",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "ST",
+    "pwbd": false,
+    "seatCategories": [
+      "ST"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Uttar Pradesh",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-76a45b45e8",
+    "name": "Sumandeep Ayurvedic Medical college and Hospital Sumandeep Vidyapeeth An",
+    "course": "BAMS",
+    "openingRank": 562754,
+    "closingRank": 562754,
+    "allotmentCount": 1,
+    "ranks": [
+      562754
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "General",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Management/Paid Seats Quota",
+    "state": "Gujarat",
+    "kind": "Deemed",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-3817885207",
+    "name": "Swahid Jadav Nath Homoeopathic Medical College and Hospital, Guwahati",
+    "course": "BHMS",
+    "openingRank": 111844,
+    "closingRank": 111844,
+    "allotmentCount": 1,
+    "ranks": [
+      111844
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "General",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Assam",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-8efb003778",
+    "name": "Swahid Jadav Nath Homoeopathic Medical College and Hospital, Guwahati",
+    "course": "BHMS",
+    "openingRank": 277738,
+    "closingRank": 277738,
+    "allotmentCount": 1,
+    "ranks": [
+      277738
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Assam",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-59e42724fe",
+    "name": "University College of Homoeopathy, Jodhpur,University college of Homoeopathy, Dr.",
+    "course": "BHMS",
+    "openingRank": 119959,
+    "closingRank": 119959,
+    "allotmentCount": 1,
+    "ranks": [
+      119959
+    ],
+    "allottedCategory": "EWS",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "EWS",
+    "pwbd": false,
+    "seatCategories": [
+      "EWS"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Rajasthan",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-4341c8a2e4",
+    "name": "University College of Homoeopathy, Jodhpur,University college of Homoeopathy, Dr.",
+    "course": "BHMS",
+    "openingRank": 259021,
+    "closingRank": 259021,
+    "allotmentCount": 1,
+    "ranks": [
+      259021
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Rajasthan",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-a9742124fe",
+    "name": "University College of Unani, Tonk, Rajasthan,UNIVERSITY COLLEGE OF UNANI",
+    "course": "BUMS",
+    "openingRank": 114027,
+    "closingRank": 114027,
+    "allotmentCount": 1,
+    "ranks": [
+      114027
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "EWS",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Rajasthan",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-e780015b45",
+    "name": "University College of Unani, Tonk, Rajasthan,UNIVERSITY COLLEGE OF UNANI",
+    "course": "BUMS",
+    "openingRank": 214015,
+    "closingRank": 214015,
+    "allotmentCount": 1,
+    "ranks": [
+      214015
+    ],
+    "allottedCategory": "EWS",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "EWS",
+    "pwbd": false,
+    "seatCategories": [
+      "EWS"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Rajasthan",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-43a11fe7e3",
+    "name": "University College of Unani, Tonk, Rajasthan,UNIVERSITY COLLEGE OF UNANI",
+    "course": "BUMS",
+    "openingRank": 139955,
+    "closingRank": 147397,
+    "allotmentCount": 2,
+    "ranks": [
+      139955,
+      147397
+    ],
+    "allottedCategory": "OBC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "OBC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Rajasthan",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-11c76d0d7f",
+    "name": "University College of Unani, Tonk, Rajasthan,UNIVERSITY COLLEGE OF UNANI",
+    "course": "BUMS",
+    "openingRank": 368914,
+    "closingRank": 368914,
+    "allotmentCount": 1,
+    "ranks": [
+      368914
+    ],
+    "allottedCategory": "SC",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "SC"
+    ],
+    "quota": "All India Quota Government",
+    "state": "Rajasthan",
+    "kind": "Government",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-b6b1333b5e",
+    "name": "Yenepoya Ayurveda Medical College, Mangaluru, Karnataka,NARINGANA VILLAGE",
+    "course": "BAMS",
+    "openingRank": 870898,
+    "closingRank": 870898,
+    "allotmentCount": 1,
+    "ranks": [
+      870898
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "General",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Management/Paid Seats Quota",
+    "state": "Karnataka",
+    "kind": "Deemed",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-e4e78308dd",
+    "name": "Yenepoya Ayurveda Medical College, Mangaluru, Karnataka,NARINGANA VILLAGE",
+    "course": "BAMS",
+    "openingRank": 793474,
+    "closingRank": 938821,
+    "allotmentCount": 2,
+    "ranks": [
+      793474,
+      938821
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "OBC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Management/Paid Seats Quota",
+    "state": "Karnataka",
+    "kind": "Deemed",
+    "femaleOnly": false
+  },
+  {
+    "id": "svr2-0208f05b17",
+    "name": "Yenepoya Ayurveda Medical College, Mangaluru, Karnataka,NARINGANA VILLAGE",
+    "course": "BAMS",
+    "openingRank": 837719,
+    "closingRank": 837719,
+    "allotmentCount": 1,
+    "ranks": [
+      837719
+    ],
+    "allottedCategory": "Open",
+    "period": "2025 SVR-II",
+    "round": "SVR2",
+    "category": "SC",
+    "pwbd": false,
+    "seatCategories": [
+      "Open"
+    ],
+    "quota": "Management/Paid Seats Quota",
+    "state": "Karnataka",
+    "kind": "Deemed",
+    "femaleOnly": false
+  }
+]

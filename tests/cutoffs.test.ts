@@ -15,11 +15,13 @@ import {
   getRoundTrends,
 } from "../lib/cutoffs";
 
-test("contains the aggregated Round 1, Round 3, and SVR-I cutoff records", () => {
-  assert.equal(cutoffRecords.length, 1487);
+test("contains the aggregated Round 1–3 and SVR-I–II cutoff records", () => {
+  assert.equal(cutoffRecords.length, 2253);
   assert.equal(cutoffRecords.filter((record) => record.round === 1).length, 729);
+  assert.equal(cutoffRecords.filter((record) => record.round === 2).length, 674);
   assert.equal(cutoffRecords.filter((record) => record.round === 3).length, 509);
   assert.equal(cutoffRecords.filter((record) => record.round === "SVR1").length, 249);
+  assert.equal(cutoffRecords.filter((record) => record.round === "SVR2").length, 92);
   assert.ok(
     cutoffRecords.every(
       (record) => record.openingRank > 0 && record.closingRank >= record.openingRank
@@ -80,6 +82,17 @@ test("selects Round 3 independently", () => {
   assert.ok(matches.length > 0);
   assert.ok(matches.every((record) => record.round === 3 || record.round === "R3"));
   assert.equal(matches[0].state, "Goa");
+});
+
+test("selects Round 2 and SVR-II independently", () => {
+  const round2Probe = cutoffRecords.find((record) => record.round === 2 && record.category === "General" && !record.pwbd && !record.femaleOnly)!;
+  const svr2Probe = cutoffRecords.find((record) => record.round === "SVR2" && record.category === "General" && !record.pwbd && !record.femaleOnly)!;
+  const round2Matches = findMatchingCutoffs(round2Probe.openingRank, round2Probe.state, "All", 2, "General", false, "Male", { includeReach: false });
+  const svr2Matches = findMatchingCutoffs(svr2Probe.openingRank, svr2Probe.state, "All", "SVR2", "General", false, "Male", { includeReach: false });
+  assert.ok(round2Matches.length > 0);
+  assert.ok(svr2Matches.length > 0);
+  assert.ok(round2Matches.every((record) => record.round === 2 || record.round === "R2"));
+  assert.ok(svr2Matches.every((record) => record.round === "SVR2"));
 });
 
 test("SVR-I works and SVR-I data is loaded", () => {
